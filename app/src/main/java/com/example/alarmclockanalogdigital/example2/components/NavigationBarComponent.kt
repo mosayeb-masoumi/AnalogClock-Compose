@@ -1,4 +1,4 @@
-package com.example.alarmclockanalogdigital.components
+package com.example.alarmclockanalogdigital.example2.components
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Icon

@@ -1,4 +1,4 @@
-package com.example.alarmclockanalogdigital.components
+package com.example.alarmclockanalogdigital.example2.components
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background

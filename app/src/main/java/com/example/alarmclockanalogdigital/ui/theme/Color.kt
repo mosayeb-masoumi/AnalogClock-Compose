@@ -27,3 +27,8 @@ val AnalogClockSecondHandColor = Color(0xFFD81F72)
 val NavigationBarShadowColor = Color(0xBFC4D4E7)
 val NavigationBarColor = Color(0xFFECF1FF)
 val AndroidNavigationBarColor = Color(0xFF17213A)
+
+val white = Color(0xFFFFFFFF)
+val gray = Color(0xFF3F3F3F)
+val darkGray = Color(0xFF1A1717)
+val redOrange = Color(0xFFE84A23)

@@ -1,4 +1,4 @@
-package com.example.alarmclockanalogdigital
+package com.example.alarmclockanalogdigital.example2
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -22,15 +22,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.alarmclockanalogdigital.components.AnalogClockComponent
-import com.example.alarmclockanalogdigital.components.NavigationBarComponent
+import com.example.alarmclockanalogdigital.example2.components.AnalogClockComponent
+import com.example.alarmclockanalogdigital.example2.components.NavigationBarComponent
 import com.example.alarmclockanalogdigital.ui.theme.AlarmClockAnalogDigitalTheme
 import kotlinx.coroutines.delay
 import java.util.Calendar
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun AlarmClockScreen() {
+fun AlarmClockExample2() {
 
     var hour by remember { mutableStateOf("0") }
     var minute by remember { mutableStateOf("0") }
@@ -179,8 +179,8 @@ fun HeaderComponent() {
 
 @Preview(showBackground = true)
 @Composable
-fun AlarmClockScreenPreview() {
+fun AlarmClockExample2Preview() {
     AlarmClockAnalogDigitalTheme {
-        AlarmClockScreen()
+        AlarmClockExample2()
     }
 }
